@@ -6,11 +6,6 @@ import top.ymsblog.betterban.Commands;
 import top.ymsblog.betterban.BListeners;
 
 public final class Betterban extends JavaPlugin {
-    private static String p_ver;
-
-    static {
-        p_ver = "1.1.1";
-    }
 
     @Override
     public void onEnable() {
@@ -21,7 +16,7 @@ public final class Betterban extends JavaPlugin {
 
     }
     public String getVersion(){
-        return p_ver;
+        return this.getDescription().getVersion();
     }
 
     @Override
