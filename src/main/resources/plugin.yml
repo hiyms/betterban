@@ -1,0 +1,24 @@
+name: betterban
+version: '${version}'
+main: top.ymsblog.betterban.Betterban
+api-version: '1.20'
+author: "yms@ymsblog.top"
+
+commands:
+  bban:
+    description: "BetterBan"
+    permission: betterban.reload
+
+permissions:
+  betterban.all:
+    description: "允许你使用betterban的功能"
+    default: true
+
+
+  betterban.reload:
+    description: "允许你重载betterban配置"
+    default: op
+
+  betterban.donotban:
+    default: op
+
