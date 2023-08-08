@@ -30,6 +30,5 @@ public class BListeners implements Listener {
                 break;
             }
         }
-        return;
     }
 }

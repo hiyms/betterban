@@ -9,7 +9,7 @@ public final class Betterban extends JavaPlugin {
     private static String p_ver;
 
     static {
-        p_ver = "1.0.0";
+        p_ver = "1.1.1";
     }
 
     @Override
