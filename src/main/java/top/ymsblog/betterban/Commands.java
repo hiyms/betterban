@@ -18,8 +18,8 @@ public class Commands implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(Objects.equals(args[0], "reload")){
-            if(sender.hasPermission("betterban.reload")&&sender instanceof Player){
-                sender.sendMessage("You do not have this permission!");
+            if(sender instanceof Player&&!sender.hasPermission("betterban.reload")){
+                sender.sendMessage("[BetterBan] You do not have this permission!");
                 return false;
             }
             MainPlugin.reloadConfig();

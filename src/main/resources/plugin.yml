@@ -7,7 +7,7 @@ author: "yms@ymsblog.top"
 commands:
   bban:
     description: "BetterBan"
-    permission: betterban.reload
+    permission: betterban.all
 
 permissions:
   betterban.all:
