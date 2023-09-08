@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'top.ymsblog'
-version = '1.1-SNAPSHOT'
+version = '1.1-SNAPSHOT_dev'
 
 repositories {
     mavenCentral()
