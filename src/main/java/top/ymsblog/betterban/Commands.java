@@ -18,7 +18,7 @@ public class Commands implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(Objects.equals(args[0], "reload")){
-            if(sender instanceof Player&&!sender.hasPermission("betterban.reload")){
+            if(sender instanceof Player&&!sender.hasPermission("betterban.command.reload")){
                 sender.sendMessage("[BetterBan] You do not have this permission!");
                 return true;
             }
