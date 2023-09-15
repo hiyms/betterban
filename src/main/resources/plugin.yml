@@ -15,10 +15,11 @@ permissions:
     default: true
 
 
-  betterban.reload:
+  betterban.command.reload:
     description: "允许你重载betterban配置"
     default: op
 
   betterban.donotban:
+    description: "允许你不受betterban封禁限制"
     default: op
 
