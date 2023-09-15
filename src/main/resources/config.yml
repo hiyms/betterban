@@ -1,4 +1,4 @@
-run: false
+enable: false
 
 rebanip:
   - "127.0.0.1$"
